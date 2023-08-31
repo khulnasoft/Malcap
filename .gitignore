@@ -1,0 +1,51 @@
+# arkime
+/arkime/etc/GeoLite2-*
+/arkime/etc/oui.txt*
+/arkime/etc/ipv4-address-space.csv*
+/README.css
+
+# auth-related
+/.ldap_config_defaults
+/auth.env
+/config/*.env
+/.opensearch*.curlrc
+/logstash/certs
+/filebeat/certs
+/nginx/certs
+/nginx/ca-trust
+/nginx/htpasswd
+/nginx/nginx_ldap*.conf
+/htadmin/config.ini
+/htadmin/metadata
+*.keystore
+
+# runtime
+.tmp
+.configured
+config.*/
+
+# development
+.envrc
+.direnv
+.vagrant
+malcap_*images.tar.gz
+malcap_*images.tar.xz
+malcap_netbox_backup_*.psql.gz
+*.iso
+*-build.log
+Gemfile.lock
+_site
+sensor-iso/_config.yml
+sensor-iso/_includes
+sensor-iso/_layouts
+sensor-iso/_site
+sensor-iso/docs
+sensor-iso/Gemfile
+sensor-iso/README.md
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+__pypackages__/
+*.py[cod]
+*$py.class
+.DS_Store
